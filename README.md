@@ -25,16 +25,16 @@ NLTK <br>
         
 # Usage 
 ## Initial preprocess
-we run preprocess.py to get two raw json files in data folder.
+run preprocess.py to get two raw json files in data folder.
 
 ## preprocess vqa and image
-we run prepro_vqa.py with word2vector_method = 1 and word2vector_method = 2.
-create four files in ./data/: train_image_features_after_vgg, val_image_features_after_vgg, train_image_features_after_res152, and val_image_features_after_res152.
-then we run prepro_image.py to extract image features with feature_type = 'VGG' or 'Residual' and mode = 'train' or 'val'.
+1. run prepro_vqa.py with word2vector_method = 1 and word2vector_method = 2.
+2. create four files in ./data/: train_image_features_after_vgg, val_image_features_after_vgg, train_image_features_after_res152, and val_image_features_after_res152.
+3. then we run prepro_image.py to extract image features with feature_type = 'VGG' or 'Residual' and mode = 'train' or 'val'.
 
 ## train the model
-create a file in ./train_model/ to store the trained model, the directory of folder should be modified to be the checkpoint path in train.py. <br>
-run train.py to train the model. <br>
+1. create a file in ./train_model/ to store the trained model, the directory of folder should be modified to be the checkpoint path in train.py. <br>
+2. run train.py to train the model. <br>
 
 ## test the model
 run test.py to test the model.
