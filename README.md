@@ -28,6 +28,11 @@ NLTK <br>
 we run preprocess.py to get two raw json files in data folder.
 
 # preprocess vqa and image
-we run preprocess_vqa.py with word2vector_method=1 and word2vector_method=2.
+we run prepro_vqa.py with word2vector_method=1 and word2vector_method=2.
+then we run prepro_image.py to extract image features.
 
+# train the model
+run train.py to train the model.
 
+# test the model
+run test.py to test the model.
