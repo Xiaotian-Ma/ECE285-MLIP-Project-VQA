@@ -29,7 +29,7 @@ we run preprocess.py to get two raw json files in data folder.
 
 ## preprocess vqa and image
 we run prepro_vqa.py with word2vector_method=1 and word2vector_method=2.
-create file "./data/\{train, val\}_image_features_after_\{vgg, res152\}".
+create file ./data/{train_ or val_>image_features_after_<vgg or res152>.
 then we run prepro_image.py to extract image features.
 
 ## train the model
