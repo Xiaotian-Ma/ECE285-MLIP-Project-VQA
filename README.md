@@ -28,9 +28,9 @@ NLTK <br>
 we run preprocess.py to get two raw json files in data folder.
 
 ## preprocess vqa and image
-we run prepro_vqa.py with word2vector_method = 1 and word2vector_method = 2.
-create four files in ./data/: train_image_features_after_vgg, val_image_features_after_res152, train_image_features_after_vgg, val_image_features_after_res152.
-then we run prepro_image.py to extract image features with feature_type = 'VGG' or 'Residual' and mode = 'train' or 'val'.
+1. run prepro_vqa.py with word2vector_method = 1 and word2vector_method = 2.
+2. create four files in ./data/: train_image_features_after_vgg, val_image_features_after_res152, train_image_features_after_vgg, val_image_features_after_res152.
+3. run prepro_image.py to extract image features with feature_type = 'VGG' or 'Residual' and mode = 'train' or 'val'.
 
 ## train the model
 create a file in ./train_model/ to saved the trained model.
